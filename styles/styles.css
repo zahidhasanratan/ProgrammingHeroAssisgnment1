@@ -18,7 +18,7 @@ body{
 }
 #hero .hero_wrapper{
     background-color: #C6E4D6;
-    border-radius: 24px;
+    border-radius: 19px;
     display: flex;
     column-gap: 50px;
     justify-content: center;
@@ -61,9 +61,147 @@ width: 380px;
 }
 
 /*Common Section Ended*/
-/*Common Section Started*/
+/*vision Section Started*/
+#vision{
+    padding: 64px 0;
+}
+#vision .heading_details{
 
-/*Common Section Ended*/
+}
+#vision .heading_details h2{
+font-size: 32px;
+color: #0E0E0E;
+font-weight: bold;
+padding-bottom: 19px;
+}
+
+#vision .heading_details p{
+font-size: 13px;
+color: rgba(14, 14, 14, 0.7);
+padding-bottom: 25px;
+}
+.vision_card_details{
+    display: flex;
+    gap: 19px;
+}
+
+.vision_card_details .item_one{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 12px;
+}
+
+.vision_card_details .item_two{
+    background-color: #C6E4D6;
+    border-radius: 12px;
+}
+.vision_card_details .item_three{
+    background-color: #F7EBCF;
+    border-radius: 12px;
+}
+
+.item_one_wrapper{
+    padding: 25px;
+}
+
+.item_two_wrapper{
+    padding: 25px;
+}
+.item_three_wrapper{
+    padding: 25px;
+}
+
+.item_one_wrapper img{
+    padding-bottom: 19px;
+}
+
+.item_two_wrapper img{
+    padding-bottom: 19px;
+}
+.item_three_wrapper img{
+    padding-bottom: 19px;
+}
+
+.vision_card_details .item_one .item_one_wrapper h4{
+color: #0E0E0E;
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 9px;
+}
+
+.vision_card_details .item_two .item_two_wrapper h4{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 9px;
+    }
+.vision_card_details .item_three .item_three_wrapper h4{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 9px;
+    }
+
+
+.vision_card_details .item_one .item_one_wrapper p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 12px;
+padding-bottom: 19px;
+}
+
+.vision_card_details .item_two .item_two_wrapper p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 12px;
+padding-bottom: 19px;
+}
+.vision_card_details .item_three .item_three_wrapper p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 12px;
+padding-bottom: 19px;
+}
+
+.vision_card_details .item_one .item_one_wrapper .vision_btn_one{
+background-color: #5490F5;
+color: white;
+padding: 11px 20px;
+border: none;
+border-radius: 6px;
+font-size: 12px;
+font-weight: 600;
+transition: all linear 0.3s;
+}
+.vision_card_details .item_one .item_one_wrapper .vision_btn_one:hover{
+        background-color: #09A15C;
+}
+
+.vision_card_details .item_two .item_two_wrapper .vision_btn_two{
+background-color: #09A15C;
+color: white;
+padding: 11px 20px;
+border: none;
+border-radius: 6px;
+font-size: 12px;
+font-weight: 600;
+transition: all linear 0.3s;
+}
+.vision_card_details .item_two .item_two_wrapper .vision_btn_two:hover{
+    background-color: #FFC239;
+}
+
+.vision_card_details .item_three .item_three_wrapper .vision_btn_three{
+background-color: #FFC239;
+color: white;
+padding: 11px 20px;
+border: none;
+border-radius: 6px;
+font-size: 12px;
+font-weight: 600;
+transition: all linear 0.3s;
+}
+.vision_card_details .item_three .item_three_wrapper .vision_btn_three:hover{
+    background-color: #09A15C;
+}
+
+/*vision Section Ended*/
 /*Common Section Started*/
 
 /*Common Section Ended*/
