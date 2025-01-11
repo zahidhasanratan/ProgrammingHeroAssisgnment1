@@ -224,6 +224,7 @@ transition: all linear 0.3s;
     border-radius: 12px;
     margin-bottom: 16px;
     padding: 30px 30px 12px 30px;
+    
 }
 
 .news_image img{
@@ -271,6 +272,13 @@ padding-bottom: 9px;
     width: 150px;
     margin-top: 25px;
     transition: all linear 0.3s;
+}
+
+.reverse_image{
+    order: 2;
+}
+.reverse_content{
+order: 1;
 }
 
 /*recentnews Section Ended*/
