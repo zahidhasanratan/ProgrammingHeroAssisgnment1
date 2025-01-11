@@ -48,6 +48,7 @@ padding: 17px 34px;
 font-size: 14px;
 font-weight: 600;
 transition: all linear 0.3s;
+cursor: pointer;
 }
 #hero .hero_details .hero_btn:hover{
     background-color: #81B4FC;
@@ -168,6 +169,7 @@ border-radius: 6px;
 font-size: 12px;
 font-weight: 600;
 transition: all linear 0.3s;
+cursor: pointer;
 }
 .vision_card_details .item_one .item_one_wrapper .vision_btn_one:hover{
         background-color: #09A15C;
@@ -182,6 +184,7 @@ border-radius: 6px;
 font-size: 12px;
 font-weight: 600;
 transition: all linear 0.3s;
+cursor: pointer;
 }
 .vision_card_details .item_two .item_two_wrapper .vision_btn_two:hover{
     background-color: #FFC239;
@@ -196,6 +199,7 @@ border-radius: 6px;
 font-size: 12px;
 font-weight: 600;
 transition: all linear 0.3s;
+cursor: pointer;
 }
 .vision_card_details .item_three .item_three_wrapper .vision_btn_three:hover{
     background-color: #09A15C;
@@ -272,6 +276,10 @@ padding-bottom: 9px;
     width: 150px;
     margin-top: 25px;
     transition: all linear 0.3s;
+    cursor: pointer;
+}
+.news-content .news_btn:hover{
+background-color: #5490F5;
 }
 
 .reverse_image{
@@ -375,6 +383,7 @@ background-color: #C6E4D6;
     color: white;
     font-size: 14px;
     transition: all linear 0.3s;
+    cursor: pointer;
 }
 .donane_amount .donate_button:hover{
 background-color: #5490F5;
@@ -468,6 +477,11 @@ color : rgb(14, 14, 14, 0.7);
     border: 1px solid transparent;
     color: white;
     border-radius: 0 5px 5px 0;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.subscriber_wrapper .subscriber_card .input_form button:hover {
+background-color: #5490F5;
 }
 
 
