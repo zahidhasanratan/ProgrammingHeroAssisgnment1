@@ -32,7 +32,15 @@ body{
     border-radius: 3px;
     font-weight: 600;
     padding: 12px 24px;
+    cursor: pointer;
+    transition: all linear 0.3s;
 }
+
+#nav .nav_container button:hover{
+    background-color: #5490F5;
+    color : white;
+}
+
 #hero{
    padding-top: 36px;
 }
@@ -59,16 +67,16 @@ body{
     font-weight: bold;
     margin-bottom: 19px;
 }
-#hero .hero_details .hero_btn{
-color: #FFFFFF;
-background-color: #006A50;
-border-radius: 8px;
-border: none;
-padding: 17px 34px;
-font-size: 14px;
-font-weight: 600;
-transition: all linear 0.3s;
-cursor: pointer;
+#hero .hero_details .hero_btn {
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    padding: 13px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all linear 0.3s;
+    cursor: pointer;
 }
 #hero .hero_details .hero_btn:hover{
     background-color: #81B4FC;
@@ -290,10 +298,10 @@ padding-bottom: 9px;
     background-color: #006A50;
     border-radius: 8px;
     border: none;
-    padding: 14px 28px;
+    padding: 11px 10px;
     font-size: 14px;
     font-weight: 600;
-    width: 150px;
+    max-width: 110px;
     margin-top: 25px;
     transition: all linear 0.3s;
     cursor: pointer;
@@ -441,7 +449,7 @@ margin-bottom: 4px;
 }
 #quotesection .quote_wrappter .quote_desig{
 color : rgb(14, 14, 14, 0.6);
-font-size: 16px;
+font-size: 12px;
 line-height: 18px;
 }
 
