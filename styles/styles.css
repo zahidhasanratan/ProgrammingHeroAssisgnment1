@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
 }
 #hero{
-   
+   padding-top: 64px;
 }
 #hero .hero_wrapper{
     background-color: #C6E4D6;
@@ -64,7 +64,7 @@ width: 380px;
 /*Common Section Ended*/
 /*vision Section Started*/
 #vision{
-    padding: 64px 0;
+    padding-top: 32px 0;
 }
 #vision .heading_details{
 
@@ -291,8 +291,8 @@ order: 1;
 
 /*recentnews Section Ended*/
 /*Common Section Started*/
-#donate{
-
+#donate {
+    padding-top: 60px;
 }
 .donate_container{
     display: flex;
@@ -373,10 +373,9 @@ background-color: #C6E4D6;
 }
 
 .donane_amount .donate_button {
-    padding: 14px 28px;
+    padding: 13px 26px;
     max-width: 150px;
     margin: 0 auto;
-    font-size: 14px;
     background-color: #006A50;
     border-radius: 6px;
     border: 1px solid rgb(14, 14, 14, 0.10);
@@ -391,6 +390,9 @@ background-color: #5490F5;
 /*Common Section Ended*/
 /*Quote Section Started*/
 
+#quotesection{
+    padding-top: 25px;
+}
 #quotesection .quote_wrappter{
     background-color: #FFFFFF;
     border-radius: 8px;
@@ -457,8 +459,9 @@ color: #0E0E0E;
 font-size: 12px;
 color : rgb(14, 14, 14, 0.7);
 }
-.subscriber_wrapper .subscriber_card .input_form{
+.subscriber_wrapper .subscriber_card .input_form {
     margin-top: 12px;
+    margin-bottom: 5px;
     display: flex;
 }
 .subscriber_wrapper .subscriber_card .input_form input {
@@ -467,7 +470,7 @@ color : rgb(14, 14, 14, 0.7);
     border-radius: 5px 0 0 5px;
     width: 480px;
     border: 1px solid transparent;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 12px;
 }
 .subscriber_wrapper .subscriber_card .input_form button {
