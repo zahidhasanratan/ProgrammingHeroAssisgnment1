@@ -34,7 +34,7 @@ body{
     font-weight: 500;
 }
 #hero .hero_details h1{
-    font-size: 36px;
+    font-size: 38px;
     color:#0E0E0E;
     font-weight: bold;
     margin-bottom: 19px;
@@ -450,7 +450,7 @@ line-height: 18px;
 
 .subscriber_wrapper .subscriber_card h2{
 color: #0E0E0E;
-font-size: 28px;
+font-size: 32px;
 font-weight: bold;
 }
 .subscriber_wrapper .subscriber_card p{
