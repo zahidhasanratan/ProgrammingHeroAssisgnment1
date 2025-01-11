@@ -204,7 +204,7 @@ transition: all linear 0.3s;
 /*vision Section Ended*/
 /*recentnews Section Started*/
 #recentnews{
-
+padding-top: 64px;
 }
 #recentnews h2{
     color: #0E0E0E;
@@ -380,9 +380,41 @@ background-color: #C6E4D6;
 background-color: #5490F5;
 }
 /*Common Section Ended*/
-/*Common Section Started*/
+/*Quote Section Started*/
 
-/*Common Section Ended*/
+#quotesection .quote_wrappter{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 28px 14px;
+}
+
+
+/* background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat; */
+    .quota_bg img {
+        position: absolute;
+        width: 45px;
+    }
+    #quotesection .quote_wrappter .quoote_description {
+        color: rgb(14, 14, 14, 0.8);
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 16px;
+        margin-bottom: 9px;
+    }
+#quotesection .quote_wrappter h3{
+color : rgb(14, 14, 14, 0.8);
+font-size: 16px;
+line-height: 18px;
+margin-bottom: 4px;
+}
+#quotesection .quote_wrappter .quote_desig{
+color : rgb(14, 14, 14, 0.6);
+font-size: 16px;
+line-height: 18px;
+}
+
+/*Quote Section Ended*/
 /*Common Section Started*/
 
 /*Common Section Ended*/
