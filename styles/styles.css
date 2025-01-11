@@ -13,8 +13,28 @@ body{
     width: 1024px;
     margin: 0 auto;
 }
+#nav {
+
+}
+#nav .nav_container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#nav .nav_container h2{
+    color: #0E0E0E;
+    font-weight: bold;
+}
+#nav .nav_container button {
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 12px 24px;
+}
 #hero{
-   padding-top: 64px;
+   padding-top: 36px;
 }
 #hero .hero_wrapper{
     background-color: #C6E4D6;
@@ -318,7 +338,7 @@ text-align: center;
 }
 #donate .donate_card .card_item{
 border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 12px;
+border-radius: 8px;
 background-color: #FFFFFF;
 display: flex;
 justify-content: center;
@@ -329,7 +349,7 @@ transition: all linear 0.3s;
 
 #donate .donate_card .card_item:nth-child(2){
     border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #C6E4D6;
     display: flex;
     justify-content: center;
