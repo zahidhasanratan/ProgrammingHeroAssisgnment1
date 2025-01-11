@@ -266,7 +266,102 @@ font-size: ;
 
 /*recentnews Section Ended*/
 /*Common Section Started*/
+#donate{
 
+}
+.donate_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+#donate h2{
+color: #0E0E0E;
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 19px;
+text-align: center;
+}
+#donate p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+    text-align: center;
+}
+#donate .donate_card{
+    display: flex;
+    justify-content: space-between;
+}
+#donate .donate_card .card_item{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 12px;
+background-color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all linear 0.3s;
+
+}
+
+#donate .donate_card .card_item:nth-child(2){
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+
+
+
+#donate .donate_card .card_item:hover{
+border: 1px solid #C6E4D6;
+cursor: pointer;
+background-color: #C6E4D6;
+
+}
+
+
+#donate .donate_card .card_item h2{
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px;
+    line-height: 1;
+    margin: 0;
+}
+.donane_amount {
+    margin-top: 25px;
+    padding: 0 10px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.donane_amount input{
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    color: 1px solid rgba(14, 14, 14, 0.30);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px; box-shadow: 0 1px 1px rgb(14, 14, 14, 0.3), 
+    0 6px 6px rgb(14, 14, 14, 0.15),
+    0 9px 9px #FFFFFF;
+}
+
+.donane_amount .donate_button {
+    padding: 14px 28px;
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #006A50;
+    border-radius: 6px;
+    border: 1px solid rgb(14, 14, 14, 0.10);
+    color: white;
+    font-size: 14px;
+    transition: all linear 0.3s;
+}
+.donane_amount .donate_button:hover{
+background-color: #5490F5;
+}
 /*Common Section Ended*/
 /*Common Section Started*/
 
