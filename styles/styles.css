@@ -415,9 +415,63 @@ line-height: 18px;
 }
 
 /*Quote Section Ended*/
-/*Common Section Started*/
+/*Subscriber Section Started*/
+#Subscribe{
+    margin: 64px;
+}
+.subscriber_wrapper{
+    background-color: #C6E4D6;
+    
+}
+.subscriber_wrapper .subscriber_card {
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 600px;
+    text-align: center;
+    flex-direction: column;
+    padding: 64px;
+}
 
-/*Common Section Ended*/
+
+.subscriber_wrapper .subscriber_card h2{
+color: #0E0E0E;
+font-size: 28px;
+font-weight: bold;
+}
+.subscriber_wrapper .subscriber_card p{
+    margin-top: 12px;
+color: #0E0E0E;
+font-size: 12px;
+color : rgb(14, 14, 14, 0.7);
+}
+.subscriber_wrapper .subscriber_card .input_form{
+    margin-top: 12px;
+    display: flex;
+}
+.subscriber_wrapper .subscriber_card .input_form input {
+    background: #FFFFFF;
+    color: rgb(14, 14, 14, 0.3);
+    border-radius: 5px 0 0 5px;
+    width: 480px;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 12px;
+}
+.subscriber_wrapper .subscriber_card .input_form button {
+    background-color: #006A50;
+    font-size: 14px;
+    padding: 13px 26px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+
+/*Subscriber Section Ended*/
 /*Common Section Started*/
 
 /*Common Section Ended*/
